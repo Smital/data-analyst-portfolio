@@ -1,4 +1,4 @@
-# Smital Christian — Data Analyst Portfolio Portfolio site
+# Smital Christian — Data Analyst Portfolio
 
 This folder contains a simple one-page portfolio website designed for GitHub Pages.
 

@@ -67,11 +67,8 @@
 
         <div class="projects-grid">
           <article class="project-card">
-            <div class="project-visual excel">
-              <span>Excel Dashboard</span>
-              <div class="mini-chart">
-                <i style="height:42%"></i><i style="height:64%"></i><i style="height:50%"></i><i style="height:82%"></i><i style="height:70%"></i>
-              </div>
+            <div class="project-image">
+              <img src="assets/retail-sales-dashboard.png" alt="Retail Sales Performance Dashboard built in Excel">
             </div>
             <div class="project-body">
               <p class="project-number">01</p>
@@ -95,24 +92,28 @@
 
           <article class="project-card">
             <div class="project-visual sql">
-              <span>SQL Analysis</span>
-              <div class="code-lines">
-                <b></b><b></b><b></b><b></b><b></b>
+              <span>SQL Insight Analysis</span>
+              <div class="sql-snippet">
+                <code>SELECT skill, COUNT(*) AS demand<br>
+FROM job_postings<br>
+JOIN skills_job_dim USING (job_id)<br>
+GROUP BY skill<br>
+ORDER BY demand DESC;</code>
               </div>
             </div>
             <div class="project-body">
               <p class="project-number">02</p>
               <h3>Business Intelligence & Reporting Analysis</h3>
               <p>
-                Explored 700K+ records using SQL to identify patterns, create reporting views and transform
-                raw data into structured business insights.
+                Analyzed 700K+ job-posting records with PostgreSQL to uncover hiring trends, in-demand skills,
+                salary patterns and opportunities for data-related roles.
               </p>
               <div class="tags">
                 <span>SQL</span><span>PostgreSQL</span><span>JOINs</span><span>CTEs</span><span>Views</span>
               </div>
               <div class="project-insight">
-                <strong>Highlights:</strong> Built reusable queries and reporting logic with JOINs, CTEs,
-                aggregates, CASE statements and database views.
+                <strong>Highlights:</strong> Used JOINs, CTEs, aggregations, CASE statements and reusable views
+                to answer business questions and turn query results into actionable insights.
               </div>
               <a class="project-link" href="https://github.com/Smital/SQL-Job-Market-Analysis" target="_blank" rel="noopener">
                 View Project →
@@ -121,11 +122,8 @@
           </article>
 
           <article class="project-card">
-            <div class="project-visual python">
-              <span>Python Data Project</span>
-              <div class="python-orbit">
-                <div>Py</div>
-              </div>
+            <div class="project-image">
+              <img src="assets/jobscope-canada-dashboard.png" alt="JobScope Canada analyst job postings dashboard">
             </div>
             <div class="project-body">
               <p class="project-number">03</p>

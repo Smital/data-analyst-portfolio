@@ -194,3 +194,32 @@ footer { padding: 30px 0 40px; }
   .contact-card, .footer-inner { flex-direction: column; align-items: flex-start; }
   .section { padding: 64px 0; }
 }
+
+.project-image {
+  height: 190px;
+  background: #f5f7fb;
+  border-bottom: 1px solid var(--line);
+  overflow: hidden;
+}
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.sql-snippet {
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: 18px;
+  padding: 11px 13px;
+  border-radius: 10px;
+  background: rgba(5, 25, 55, .74);
+  font-size: .68rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.sql-snippet code {
+  color: #eaf3ff;
+  font-family: Consolas, Monaco, monospace;
+}
